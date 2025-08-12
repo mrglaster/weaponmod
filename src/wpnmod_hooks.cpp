@@ -526,7 +526,7 @@ void Hooks_InitReferenceEntities()
 		// Opposing Force magic, lol.
 		if (WEAPON_GET_SLOT(iId) >= 5)
 		{
-			return 5;
+			return 4;
 		}
 
 		return WEAPON_GET_SLOT(iId) + 1;
