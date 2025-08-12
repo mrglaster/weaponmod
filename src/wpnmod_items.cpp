@@ -50,7 +50,7 @@ CItems::CItems()
 
 	m_pCurrentSlots = NULL;
 	m_iMaxWeaponSlots = 5;
-	m_iMaxWeaponPositions = 5;
+	m_iMaxWeaponPositions = 4;
 
 	m_pItemInfoArray = NULL;
 	m_pAmmoInfoArray = NULL;
