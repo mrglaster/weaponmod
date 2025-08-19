@@ -75,7 +75,7 @@ void CConfig::InitGameMod(void)
 	else
 	{
 		// Default
-		g_Items.AllocWeaponSlots(5, 5);
+		g_Items.AllocWeaponSlots(5, 4);
 	}
 
 	cvar_sv_cheats = CVAR_GET_POINTER("sv_cheats");
