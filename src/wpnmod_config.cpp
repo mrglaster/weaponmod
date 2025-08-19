@@ -73,7 +73,7 @@ void CConfig::InitGameMod(void)
 		// Мы находимся тут
 		// Bugfixed and improved HL release.
 		// g_Items.AllocWeaponSlots(5, 10);
-		g_Items.AllocWeaponSlots(5, 9);
+		g_Items.AllocWeaponSlots(5, 5);
 	}
 	else
 	{
