@@ -70,9 +70,10 @@ void CConfig::InitGameMod(void)
 	}
 	else if (GetSubMod() == SUBMOD_AGHLRU)
 	{
+		// Мы находимся тут
 		// Bugfixed and improved HL release.
 		// g_Items.AllocWeaponSlots(5, 10);
-		// g_Items.AllocWeaponSlots(5, 4);
+		g_Items.AllocWeaponSlots(5, 9);
 	}
 	else
 	{
