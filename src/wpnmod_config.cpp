@@ -72,13 +72,13 @@ void CConfig::InitGameMod(void)
 	{
 		// Bugfixed and improved HL release.
 		// g_Items.AllocWeaponSlots(5, 10);
-		g_Items.AllocWeaponSlots(4, 4);
+		g_Items.AllocWeaponSlots(5, 4);
 	}
 	else
 	{
 		// Default
-		g_Items.AllocWeaponSlots(5, 5);
-		// g_Items.AllocWeaponSlots(4, 4);
+		//g_Items.AllocWeaponSlots(5, 5);
+		g_Items.AllocWeaponSlots(4, 4);
 	}
 
 	cvar_sv_cheats = CVAR_GET_POINTER("sv_cheats");
