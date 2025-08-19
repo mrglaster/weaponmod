@@ -66,13 +66,13 @@ void CConfig::InitGameMod(void)
 	{
 		// Opposing Force.
 		//g_Items.AllocWeaponSlots(7, 5);
-		g_Items.AllocWeaponSlots(4, 5);
+		g_Items.AllocWeaponSlots(7, 5);
 	}
 	else if (GetSubMod() == SUBMOD_AGHLRU)
 	{
 		// Bugfixed and improved HL release.
 		// g_Items.AllocWeaponSlots(5, 10);
-		g_Items.AllocWeaponSlots(5, 4);
+		// g_Items.AllocWeaponSlots(5, 4);
 	}
 	else
 	{
